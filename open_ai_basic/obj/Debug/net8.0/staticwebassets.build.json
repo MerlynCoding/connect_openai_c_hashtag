@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ciEC3qMTcSZlpWUKBm5OyJtsk5v8Xtsa8/HDWnfe4Is=",
+  "Source": "open_ai_basic",
+  "BasePath": "_content/open_ai_basic",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

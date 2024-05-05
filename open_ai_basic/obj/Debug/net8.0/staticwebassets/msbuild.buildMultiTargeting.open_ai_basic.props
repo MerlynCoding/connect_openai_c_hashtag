@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\open_ai_basic.props" />
+</Project>
