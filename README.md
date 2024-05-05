@@ -42,43 +42,6 @@ In summary, OpenAI's ChatGPT is a powerful tool that empowers developers to buil
 
 2. **Implement the controller action**: In the `GPTController.cs` file, implement the `OpenAI` action method. This method will make a request to the OpenAI API and return the response.
 
-```csharp
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using OpenAI_API.Completions;
-
-namespace YourNamespace.Controllers
-{
-    [ApiController]
-    [Route("api/[controller]")]
-    public class GPTController : ControllerBase
-    {
-        private readonly string _openAiApiKey;
-
-        public GPTController(IConfiguration configuration)
-        {
-            _openAiApiKey = configuration["OpenAi:ApiKey"];
-        }
-
-        [HttpGet("OpenAI")]
-        public async Task<IActionResult> OpenAI()
-        {
-            var client = new OpenAI_API.OpenAIAPI(_openAiApiKey);
-            var completionRequest = new CompletionRequest
-            {
-                Prompt = "Your prompt text here",
-                Model = OpenAI_API.Models.Model.DavinciText,
-                MaxTokens = 1024
-            };
-
-            var completion = await client.Completions.CreateCompletionAsync(completionRequest);
-
-            return Ok(completion.Completions[0].Text);
-        }
-    }
-}
-```
-
 ### Step 5: Test Your API
 
 1. **Run your application**: Build and run your ASP.NET Core Web API project.
