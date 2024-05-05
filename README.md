@@ -1,6 +1,6 @@
 # connect_openai_c_hashtag
 
-<img src="https://th.bing.com/th/id/OIG4.ZaHwufRKc_sL0uZIcJ4S?w=173&h=173&c=6&r=0&o=5&dpr=1.3&pid=ImgGn" height="60" width="60" />
+<img src="https://th.bing.com/th/id/OIG4.ZaHwufRKc_sL0uZIcJ4S?w=173&h=173&c=6&r=0&o=5&dpr=1.3&pid=ImgGn" height="120" width="120" />
 
 OpenAI offers a robust platform called ChatGPT, which allows developers to leverage state-of-the-art natural language processing capabilities in their applications. With ChatGPT, developers can build conversational interfaces, virtual assistants, and chatbots that interact with users in a human-like manner.
 
