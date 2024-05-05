@@ -34,8 +34,6 @@ In summary, OpenAI's ChatGPT is a powerful tool that empowers developers to buil
 
 1. **Get your OpenAI API key**: If you haven't already, sign up for an account on the OpenAI website to get your API key.
 
-2. **Add your API key to the project**: In your project, add your API key to the `appsettings.json` file or as an environment variable.
-
 ### Step 4: Create the Controller
 
 1. **Create a new controller**: Add a new controller to your project. Right-click on the "Controllers" folder, select "Add" > "Controller", choose "API Controller - Empty", and name it `GPTController.cs`.
